@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accept_subscription">Accept contact</string>
+    <string name="account_reconnect">Reconnect</string>
+    <string name="application_action_disabled">Manage accounts</string>
+    <string name="application_action_empty">Add account</string>
+    <string name="application_action_no_contacts">Add contact</string>
+    <string name="application_action_no_online">Show offline contacts</string>
+    <string name="application_action_offline">Go online</string>
+    <string name="application_action_waiting">Reconnect</string>
+    <string name="application_state_connecting">Connecting…</string>
+    <string name="application_state_disabled">Accounts disabled</string>
+    <string name="application_state_empty">You don\'t have any accounts</string>
+    <string name="application_state_no_contacts">You have no contacts</string>
+    <string name="application_state_no_online">Nobody online</string>
+    <string name="application_state_nobody_by_filter">No contacts found</string>
+    <string name="application_state_offline">No online accounts</string>
+    <string name="application_state_roster">Connected.</string>
+    <string name="application_state_starting">Launching application…</string>
+    <string name="application_state_waiting">Waiting for connection…</string>
+    <string name="chat_viewer">Chat</string>
+    <string name="CONNECTION_FAILED">Connection error</string>
+    <string name="contact_add">Add contact</string>
+    <string name="contact_delete">Delete</string>
+    <string name="contact_block">Block contact</string>
+    <string name="contact_delete_confirm">Do you really want to delete contact %1$s from account %2$s?</string>
+    <string name="discard_subscription">Decline contact</string>
+    <string name="archive_chat">Archive</string>
+    <string name="unarchive_chat">Unarchive</string>
+    <string name="mute_forever">Mute forever</string>
+    <string name="mute_15_min">Mute for 15 minutes</string>
+    <string name="mute_1_hour">Mute for 1 hour</string>
+    <string name="mute_2_hours">Mute for 2 hours</string>
+    <string name="mute_1_day">Mute for 1 day</string>
+    <string name="mute_chat">Mute</string>
+    <string name="unmute_chat">Unmute</string>
+    <string name="show_archived">Show archived</string>
+    <string name="exit">Exit</string>
+    <string name="group_active_chat">Active chats</string>
+    <string name="group_none">No groups</string>
+    <string name="group_remove">Delete group</string>
+    <string name="group_remove_confirm">Do you really want to delete group %s? Users from this group will stay in contact list.</string>
+    <string name="group_rename">Rename group</string>
+    <string name="configure_notifications">Configure notifications</string>
+    <string name="NO_SUCH_ACCOUNT">Account not found</string>
+    <string name="NOT_CONNECTED">Connection not established</string>
+    <string name="request_subscription">Request subscription</string>
+    <string name="action_send_contact">Send contact</string>
+    <string name="XMPP_EXCEPTION">Stream error</string>
+    <string name="application_state_closing">Saving changes…\nApplication will be closed soon.</string>
+    <string name="group_room">Conferences</string>
+    <string name="OTR_ERROR">OTR error</string>
+    <string name="select_contact">Please click to select contact</string>
+    <string name="show_offline_always">Always show</string>
+    <string name="show_offline_never">Never show</string>
+    <string name="show_offline_normal">Use general settings</string>
+    <string name="show_offline_settings">Show offline contacts</string>
+    <string name="start_at_boot">Run at startup</string>
+    <string name="start_at_boot_suggest">Do you want to run NSCA at startup?\nThis can be changed in "Settings" → "Connection settings" → "Start when Android boots"</string>
+    <string name="contact_search_hint">Search contacts</string>
+    <string name="sender_is_you">You</string>
+    <string name="xmpp_accounts">XMPP accounts</string>
+    <string name="block_list">Block list</string>
+    <string name="contact_blocked_successfully">Contact blocked successfully</string>
+    <string name="error_blocking_contact">Error blocking contact</string>
+    <string name="contacts_unblocked_successfully">Contacts unblocked successfully</string>
+    <string name="error_unblocking_contacts">Error unblocking contacts</string>
+    <string name="block_contact_confirm">Do you really want to block contact %1$s from account %2$s?</string>
+    <string name="unblock_all_contacts_confirm">Do you really want to unblock all contacts from account %1$s?</string>
+    <string name="unblock_all">Unblock all</string>
+    <string name="unblock_selected">Unblock selected</string>
+    <string name="dark_theme_suggest_dialog_title">Choose your destiny</string>
+    <string name="dark_theme_suggest_dialog_message">New dark theme is now available for NSCA. Join the dark side or stay on the light side?</string>
+    <string name="dark_theme_suggest_dialog_join_dark_side">Dark</string>
+    <string name="dark_theme_suggest_dialog_stay_on_light_side">Light</string>
+
+    <string name="battery_optimization_disable_dialog_title">Battery optimization</string>
+    <string name="battery_optimization_disable_dialog_message">Your device is doing some heavy battery optimizations on NSCA that might lead to delayed notifications or even message loss.\n\nYou will now be asked to disable those.</string>
+
+    <string name="clear_log">Delete old log files</string>
+    <string name="open_log_file">Open</string>
+    <string name="send_log_file">Send</string>
+
+    <string name="synchronize_bookmarks">Synchronize bookmarks</string>
+    <string name="remove_all_bookmarks">Remove all</string>
+    <string name="remove_selected_bookmarks">Remove selected</string>
+    <string name="remove_all_bookmarks_confirm">Do you really want to remove all bookmarks from account %1$s?</string>
+    <string name="remove_selected_bookmarks_confirm">Do you really want to remove selected bookmarks from account %1$s?</string>
+
+    <string name="placeholder_no_archived">Archive has no chats</string>
+    <string name="placeholder_no_unread">No unread chats</string>
+
+    <string name="chat_was_archived">Chat was archived</string>
+    <string name="chat_was_unarchived">Removed from archive</string>
+    <string name="undo">UNDO</string>
+
+    <string name="recent_chats">Recent chats</string>
+    <string name="unread_chats">Unread chats</string>
+    <string name="archived_chats">Archived chats</string>
+    <string name="all_chats">All chats</string>
+    <string name="no_messages">No messages</string>
+    <string name="show_all_chats">Show all chats</string>
+    <string name="category_title_contacts">Contacts</string>
+
+    <string name="showcase_contact_list_text_1">Swipe chat left or right to archive it</string>
+
+    <string name="last_seen_now">last seen just now</string>
+    <string name="last_seen_minutes">last seen %1$s minutes ago</string>
+    <string name="last_seen_hours">last seen an hour ago</string>
+    <string name="last_seen_today">last seen at %1$s</string>
+    <string name="last_seen_yesterday">last seen yesterday at %1$s</string>
+    <string name="last_seen_on_week">last seen on %1$s at %2$s</string>
+    <string name="last_seen_date">last seen %1$s</string>
+</resources>

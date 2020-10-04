@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="in_never_value">-1</string>
+    <string name="in_immediately_value">0</string>
+    <string name="in_1m_value">60000</string>
+    <string name="in_2m_value">120000</string>
+    <string name="in_5m_value">300000</string>
+    <string name="in_10m_value">600000</string>
+    <string name="in_15m_value">900000</string>
+    <string name="in_30m_value">1800000</string>
+    <string name="in_1h_value">3600000</string>
+
+    <string name="default_sound">com.xabber.android.DEFAULT_SOUND</string>
+
+    <string name="sync_all_key">sync_all_key</string>
+    <string name="order_last_timestamp_key">order_last_timestamp_key</string>
+
+    <string name="patreon_last_load_timestamp_key">patreon_last_load_timestamp_key</string>
+    <string name="crowdfunding_last_load_timestamp_key">crowdfunding_last_load_timestamp_key</string>
+    <string name="crowdfunding_leader_last_load_timestamp_key">crowdfunding_leader_last_load_timestamp_key</string>
+    <string name="first_app_run_timestamp_key">first_app_run_timestamp_key</string>
+    <string name="crowdfunding_last_position_key">crowdfunding_last_position_key</string>
+    <string name="enabled_push_nodes">enabled_push_nodes</string>
+
+    <string name="last_sync_date_key">last_sync_date_key</string>
+    <string name="last_sync_date_default">@string/last_sync_date_never</string>
+
+    <!-- preference_spam -->
+    <string name="spam_filter_key">spam_key</string>
+    <string-array name="spam_filter_entries">
+        <item>@string/spam_filter_1</item>
+        <item>@string/spam_filter_2</item>
+        <item>@string/spam_filter_3</item>
+        <item>@string/spam_filter_4</item>
+    </string-array>
+    <string-array name="spam_filter_entryvalues">
+        <item>@string/spam_filter_1_value</item>
+        <item>@string/spam_filter_2_value</item>
+        <item>@string/spam_filter_3_value</item>
+        <item>@string/spam_filter_4_value</item>
+    </string-array>
+    <string name="spam_filter_default">@string/spam_filter_1_value</string>
+
+    <string name="spam_filter_1_value">spam_filter_1</string>
+    <string name="spam_filter_2_value">spam_filter_2</string>
+    <string name="spam_filter_3_value">spam_filter_3</string>
+    <string name="spam_filter_4_value">spam_filter_4</string>
+
+<!-- preference_interface -->
+    <string name="interface_theme_key">interface_theme</string>
+    <string name="interface_theme_normal_value">normal</string>
+    <string name="interface_theme_dark_value">dark</string>
+    <string name="interface_theme_light_value">light</string>
+    <string-array name="interface_theme_entries">
+        <item>@string/interface_theme_dark</item>
+        <item>@string/interface_theme_light</item>
+    </string-array>
+    <string-array name="interface_theme_entryvalues">
+        <item>@string/interface_theme_dark_value</item>
+        <item>@string/interface_theme_light_value</item>
+    </string-array>
+    <string name="interface_theme_default">@string/interface_theme_light_value</string>
+
+    <string name="interface_smiles_key">interface_smiles</string>
+    <string name="interface_smiles_android_value">android</string>
+    <string name="interface_smiles_none_value">none</string>
+    <string-array name="interface_smiles_entries">
+        <item>@string/interface_smiles_android</item>
+        <item>@string/interface_smiles_none</item>
+    </string-array>
+    <string-array name="interface_smiles_entryvalues">
+        <item>@string/interface_smiles_android_value</item>
+        <item>@string/interface_smiles_none_value</item>
+    </string-array>
+    <string name="interface_smiles_default">@string/interface_smiles_android_value</string>
+
+<!-- preference_contacts -->
+
+    <string name="contacts_show_avatars_key">contacts_show_avatars</string>
+    <bool name="contacts_show_avatars_default">true</bool>
+
+    <string name="contacts_show_messages_key">contacts_show_messages</string>
+    <bool name="contacts_show_messages_default">false</bool>
+
+    <string name="contacts_show_offline_key">contacts_show_offline</string>
+    <bool name="contacts_show_offline_default">true</bool>
+
+    <string name="contacts_show_groups_key">contacts_show_groups</string>
+    <bool name="contacts_show_groups_default">true</bool>
+
+    <string name="contacts_show_accounts_key">contacts_show_accounts</string>
+    <bool name="contacts_show_accounts_default">true</bool>
+
+    <string name="contacts_show_empty_groups_key">contacts_show_empty_groups</string>
+    <bool name="contacts_show_empty_groups_default">false</bool>
+
+    <string name="contacts_order_key">contacts_order</string>
+    <string name="contacts_order_status_value">status</string>
+    <string name="contacts_order_alphabet_value">alphabet</string>
+    <string-array name="contacts_order_entries">
+        <item>@string/contacts_order_status</item>
+        <item>@string/contacts_order_alphabet</item>
+    </string-array>
+    <string-array name="contacts_order_entryvalues">
+        <item>@string/contacts_order_status_value</item>
+        <item>@string/contacts_order_alphabet_value</item>
+    </string-array>
+    <string name="contacts_order_default">@string/contacts_order_status_value</string>
+
+    <string name="contacts_enable_show_accounts_key">contacts_enable_show_accounts</string>
+    <bool name="contacts_enable_show_accounts_default">true</bool>
+
+    <string name="contacts_selected_account_key">contacts_selected_account</string>
+
+<!-- preference_events -->
+    <string name="events_sound_key">events_sound_uri</string>
+    <string name="events_sound_muc_key">events_sound_muc_uri</string>
+    <string name="events_sound_default">@string/default_sound</string>
+
+    <string name="events_vibro_chat_key">events_vibro_chat_key</string>
+    <string name="events_vibro_muc_key">events_vibro_muc_key</string>
+    <string name="events_vibro_disable">disable</string>
+    <string name="events_vibro_bydefault">default</string>
+    <string name="events_vibro_short">short</string>
+    <string name="events_vibro_long">long</string>
+    <string name="events_vibro_if_silent">if silent</string>
+    <string-array name="events_vibro_entries">
+        <item>@string/disabled</item>
+        <item>@string/vibro_default</item>
+        <item>@string/vibro_short</item>
+        <item>@string/vibro_long</item>
+        <item>@string/vibro_if_silent</item>
+    </string-array>
+    <string-array name="events_vibro_entryvalues">
+        <item>@string/events_vibro_disable</item>
+        <item>@string/events_vibro_bydefault</item>
+        <item>@string/events_vibro_short</item>
+        <item>@string/events_vibro_long</item>
+        <item>@string/events_vibro_if_silent</item>
+    </string-array>
+
+    <string name="events_lightning_key">events_lightning</string>
+    <string name="events_lightning_muc_key">events_lightning_muc</string>
+    <bool name="events_lightning_default">true</bool>
+
+    <string name="events_persistent_key">events_persistent</string>
+    <bool name="events_persistent_default">true</bool>
+
+    <string name="events_show_text_key">events_show_text</string>
+    <string name="events_show_text_muc_key">events_show_text_muc</string>
+    <bool name="events_show_text_default">true</bool>
+
+    <string name="events_on_chat_key">events_on_chat</string>
+    <bool name="events_on_chat_default">true</bool>
+    <string name="events_on_muc_key">events_on_muc</string>
+    <bool name="events_on_muc_default">true</bool>
+
+    <string name="events_visible_chat_key">events_visible_chat</string>
+    <bool name="events_visible_chat_default">false</bool>
+
+    <string name="events_first_only_key">events_first_only</string>
+    <bool name="events_first_only_default">false</bool>
+
+    <string name="events_in_app_sounds_key">events_in_app_sounds</string>
+    <bool name="events_in_app_sounds_default">true</bool>
+
+    <string name="events_in_app_vibrate_key">events_in_app_vibrate</string>
+    <bool name="events_in_app_vibrate_default">true</bool>
+
+    <string name="events_in_app_preview_key">events_in_app_preview</string>
+    <bool name="events_in_app_preview_default">true</bool>
+
+    <string name="events_in_chat_sounds_key">events_in_chat_sound</string>
+    <bool name="events_in_chat_sounds_default">true</bool>
+
+    <string name="events_reset_key">events_reset</string>
+    <string name="events_remove_all_custom_key">events_remove_all_custom_key</string>
+
+    <string name="custom_notification_enable_key">custom_notification_enable</string>
+    <string name="custom_notification_preview_key">custom_notification_preview</string>
+    <string name="custom_notification_sound_key">custom_notification_sound</string>
+    <string name="custom_notification_vibro_key">custom_notification_vibro</string>
+<!-- preference_chats -->
+	<string name="preference_chats">@string/chat_viewer</string>
+
+    <string name="chats_show_avatars_key">chats_show_avatars</string>
+    <bool name="chats_show_avatars_default">false</bool>
+
+    <string name="chats_show_avatars_muc_key">chats_show_avatars_muc</string>
+    <bool name="chats_show_avatars_muc_default">true</bool>
+
+    <string name="contacts_reset_offline_key">contacts_reset_offline</string>
+
+    <string name="chats_send_by_enter_key">chats_send_by_enter</string>
+    <bool name="chats_send_by_enter_default">false</bool>
+
+    <string name="chats_show_status_change_key">chats_show_status_change</string>
+    <string name="chats_show_status_change_always_value">always</string>
+    <string name="chats_show_status_change_muc_value">muc</string>
+    <string name="chats_show_status_change_never_value">never</string>
+    <string-array name="chats_show_status_change_entries">
+        <item>@string/always</item>
+        <item>@string/chats_show_status_change_muc</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="chats_show_status_change_entryvalues">
+        <item>@string/chats_show_status_change_always_value</item>
+        <item>@string/chats_show_status_change_muc_value</item>
+        <item>@string/chats_show_status_change_never_value</item>
+    </string-array>
+    <string name="chats_show_status_change_default">@string/chats_show_status_change_muc_value</string>
+
+    <string name="chats_hide_keyboard_key">chats_hide_keyboard</string>
+    <string name="chats_hide_keyboard_always_value">always</string>
+    <string name="chats_hide_keyboard_landscape_value">landscape</string>
+    <string name="chats_hide_keyboard_never_value">never</string>
+    <string-array name="chats_hide_keyboard_entries">
+        <item>@string/always</item>
+        <item>@string/chats_hide_keyboard_landscape</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="chats_hide_keyboard_entryvalues">
+        <item>@string/chats_hide_keyboard_always_value</item>
+        <item>@string/chats_hide_keyboard_landscape_value</item>
+        <item>@string/chats_hide_keyboard_never_value</item>
+    </string-array>
+    <string name="chats_hide_keyboard_default">@string/chats_hide_keyboard_landscape_value</string>
+
+    <string name="chats_show_background_key">chats_show_background</string>
+    <bool name="chats_show_background_default">true</bool>
+
+    <string name="chats_font_size_key">chats_font_size</string>
+    <string name="chats_font_size_small_value">small</string>
+    <string name="chats_font_size_normal_value">normal</string>
+    <string name="chats_font_size_large_value">large</string>
+    <string name="chats_font_size_xlarge_value">xlarge</string>
+    <string-array name="chats_font_size_entries">
+        <item>@string/chats_font_size_small</item>
+        <item>@string/chats_font_size_normal</item>
+        <item>@string/chats_font_size_large</item>
+        <item>@string/chats_font_size_xlarge</item>
+        </string-array>
+    <string-array name="chats_font_size_entryvalues">
+        <item>@string/chats_font_size_small_value</item>
+        <item>@string/chats_font_size_normal_value</item>
+        <item>@string/chats_font_size_large_value</item>
+        <item>@string/chats_font_size_xlarge_value</item>
+    </string-array>
+    <string name="chats_font_size_default">@string/chats_font_size_normal_value</string>
+
+    <string name="chats_state_notification_key">chats_state_notification</string>
+    <bool name="chats_state_notification_default">true</bool>
+
+    <string name="chats_attention_key">chats_attention</string>
+    <bool name="chats_attention_default">true</bool>
+
+    <string name="chats_attention_sound_key">chats_attention_sound</string>
+    <string name="chats_attention_sound_default">@string/default_sound</string>
+
+    <string name="connection_start_at_boot_key">connection_start_at_boot</string>
+    <bool name="connection_start_at_boot_default">false</bool>
+
+    <string name="battery_optimization_disable_key">battery_optimization_disable</string>
+
+    <string name="connection_go_away_key">connection_go_away</string>
+    <string-array name="connection_go_away_entries">
+        <item>@string/never</item>
+        <item>@string/connection_go_away_immediately</item>
+        <item>@string/in1m</item>
+        <item>@string/in2m</item>
+        <item>@string/in5m</item>
+        <item>@string/in10m</item>
+        <item>@string/in15m</item>
+        <item>@string/in30m</item>
+    </string-array>
+    <string-array name="connection_go_away_entryvalues">
+        <item>@string/in_never_value</item>
+        <item>@string/in_immediately_value</item>
+        <item>@string/in_1m_value</item>
+        <item>@string/in_2m_value</item>
+        <item>@string/in_5m_value</item>
+        <item>@string/in_10m_value</item>
+        <item>@string/in_15m_value</item>
+        <item>@string/in_30m_value</item>
+    </string-array>
+    <string name="connection_go_away_default">@string/in_15m_value</string>
+
+    <string name="connection_go_xa_key">connection_go_xa</string>
+    <string-array name="connection_go_xa_entries">
+        <item>@string/never</item>
+        <item>@string/in5m</item>
+        <item>@string/in10m</item>
+        <item>@string/in15m</item>
+        <item>@string/in30m</item>
+        <item>@string/in1h</item>
+        </string-array>
+    <string-array name="connection_go_xa_entryvalues">
+        <item>@string/in_never_value</item>
+        <item>@string/in_5m_value</item>
+        <item>@string/in_10m_value</item>
+        <item>@string/in_15m_value</item>
+        <item>@string/in_30m_value</item>
+        <item>@string/in_1h_value</item>
+        </string-array>
+    <string name="connection_go_xa_default">@string/in_30m_value</string>
+
+    <string name="connection_wifi_lock_key">connection_wifi_lock</string>
+    <bool name="connection_wifi_lock_default">true</bool>
+
+    <string name="connection_wake_lock_key">connection_wake_lock_key</string>
+    <bool name="connection_wake_lock_default">false</bool>
+
+    <string name="connection_adjust_priority_key">connection_adjust_priority</string>
+    <bool name="connection_adjust_priority_default">false</bool>
+
+    <string name="connection_priority_dnd_key">connection_priority_dnd</string>
+    <string name="connection_priority_dnd_default">-1</string>
+
+    <string name="connection_priority_xa_key">connection_priority_xa</string>
+    <string name="connection_priority_xa_default">0</string>
+
+    <string name="connection_priority_away_key">connection_priority_away</string>
+    <string name="connection_priority_away_default">0</string>
+
+    <string name="connection_priority_available_key">connection_priority_online</string>
+    <string name="connection_priority_available_default">5</string>
+
+    <string name="connection_priority_chat_key">connection_priority_chat</string>
+    <string name="connection_priority_chat_default">20</string>
+
+    <string name="connection_load_vcard_key">connection_load_vcard</string>
+    <bool name="connection_load_vcard_default">true</bool>
+
+    <string name="connection_load_images_key">connection_load_images</string>
+    <bool name="connection_load_images_default">true</bool>
+
+    <!-- "connection_use_carbons" was used up to 1.0.169, default value earlier was false -->
+    <!-- so we add new key and set it to true (old users key will not be used) -->
+    <string name="connection_use_carbons_key">connection_use_carbons_new</string>
+    <bool name="connection_use_carbons_default">true</bool>
+
+    <string name="connection_compress_image_on_upload_key">connection_compress_image_on_upload</string>
+    <bool name="connection_compress_image_on_upload_default">true</bool>
+
+    <string name="connection_dns_resolver_type_key">connection_dns_resolver_type</string>
+
+    <string name="connection_dns_resolver_type_dns_java_resolver_value">connection_dns_resolver_type_dns_java_resolver</string>
+    <string name="connection_dns_resolver_type_mini_dns_resolver_value">connection_dns_resolver_type_mini_dns_resolver</string>
+
+    <string name="connection_dns_resolver_type_default">@string/connection_dns_resolver_type_dns_java_resolver_value</string>
+
+    <string name="connection_use_plain_text_auth_key">connection_use_plain_text_auth</string>
+    <bool name="connection_use_plain_text_auth_default">false</bool>
+
+<!-- preference_debug -->
+    <string name="cache_clear_key">cache_clear</string>
+
+    <string name="debug_log_key">debug_log</string>
+    <bool name="debug_log_default">true</bool>
+
+    <string name="debug_file_log_key">debug_file_log</string>
+    <bool name="debug_file_log_default">false</bool>
+
+    <string name="debug_connection_errors_key">connection_errors</string>
+    <bool name="debug_connection_errors_default">false</bool>
+
+    <string name="debug_log_activity_key">debug_log_activity</string>
+    <string name="push_log_activity_key">push_log_activity_key</string>
+
+    <string name="debug_crash_reports_key">debug_crash_reports</string>
+    <bool name="debug_crash_reports_default">true</bool>
+
+    <string name="debug_crash_reports_dialog_key">debug_crash_reports_dialog</string>
+    <string name="debug_download_all_messages_key">debug_download_all_messages_key</string>
+    <string name="debug_use_develop_api_key">debug_develop_xabber_api_key</string>
+    <bool name="debug_use_develop_api_default">false</bool>
+    <bool name="debug_sync_bookmarks_on_start_default">true</bool>
+    <string name="debug_fetch_crowdfunding_feed_key">debug_fetch_crowdfunding_feed_key</string>
+    <string name="debug_sync_bookmarks_on_start_key">debug_sync_bookmarks_on_start_key</string>
+
+    <!-- preference_about -->
+    <string name="preference_about">@string/about_viewer</string>
+    <string name="preference_about_key">preference_about</string>
+
+<!-- preference_account -->
+
+    <string name="account_enabled_key">account_enabled</string>
+    <string name="account_syncable_key">account_syncable</string>
+    <string name="account_username_key">account_username</string>
+    <string name="account_store_password_key">account_store_password</string>
+    <string name="account_password_key">account_password</string>
+    <bool name="account_use_custom_host_default">false</bool>
+    <string name="account_host_key">account_host</string>
+    <string name="account_port_key">account_port</string>
+    <string name="account_server_key">account_server</string>
+    <string name="account_resource_key">account_resource</string>
+    <string name="account_resource_default">xabber-android</string>
+    <string name="account_priority_key">account_priority</string>
+    <string name="account_sasl_key">account_sasl</string>
+    <string name="account_tls_mode_key">account_tls_mode</string>
+    <string name="account_compression_key">account_compression</string>
+    <bool name="account_use_compression_default">false</bool>
+    <string name="account_proxy_type_key">account_proxy_type</string>
+    <string name="account_proxy_host_key">account_proxy_host</string>
+    <string name="account_proxy_port_key">account_proxy_port</string>
+    <string name="account_proxy_user_key">account_proxy_user</string>
+    <string name="account_proxy_password_key">account_proxy_password</string>
+    <string name="account_custom_key">account_custom</string>
+    <string name="account_archive_mode_key">account_archive_mode</string>
+    <string name="account_color_key">account_color_key</string>
+
+    <string-array name="account_tls_entries">
+        <item>@string/account_tls_enable</item>
+        <item>@string/account_tls_require</item>
+        <item>@string/account_tls_legacy</item>
+    </string-array>
+    <string-array name="account_tls_entryvalues">
+        <item>@string/account_tls_enable_summary</item>
+        <item>@string/account_tls_require_summary</item>
+        <item>@string/account_tls_legacy_summary</item>
+    </string-array>
+
+    <string-array name="account_proxy_type_entries">
+        <item>@string/account_proxy_type_none</item>
+        <item>@string/http</item>
+        <item>@string/socks4</item>
+        <item>@string/socks5</item>
+        <item>@string/orbot</item>
+    </string-array>
+    <string-array name="account_proxy_type_entryvalues">
+        <item>@string/account_proxy_type_none</item>
+        <item>@string/http</item>
+        <item>@string/socks4</item>
+        <item>@string/socks5</item>
+        <item>@string/orbot</item>
+    </string-array>
+
+    <string name="account_archive_mode_default_value">local</string>
+
+    <string name="account_clear_history_on_exit_key">account_clear_history_on_exit</string>
+
+    <string name="account_mam_default_behavior_key">account_mam_default_behavior</string>
+
+    <string-array name="account_mam_default_behavior_entries">
+        <item>@string/account_mam_default_behavior_always</item>
+        <item>@string/account_mam_default_behavior_never</item>
+        <item>@string/account_mam_default_behavior_roster</item>
+    </string-array>
+
+    <string-array name="account_mam_default_behavior_values">
+        <item>@string/account_mam_default_behavior_always</item>
+        <item>@string/account_mam_default_behavior_never</item>
+        <item>@string/account_mam_default_behavior_roster</item>
+    </string-array>
+
+    <string name="account_mam_sync_key">account_mam_sync</string>
+
+    <string-array name="account_mam_sync_entries">
+        <item>@string/account_mam_sync_all</item>
+        <item>@string/account_mam_sync_current</item>
+        <item>@string/account_mam_sync_none</item>
+    </string-array>
+
+    <string-array name="account_mam_sync_values">
+        <item>@string/account_mam_sync_all</item>
+        <item>@string/account_mam_sync_current</item>
+        <item>@string/account_mam_sync_none</item>
+    </string-array>
+
+    <!-- preference_security -->
+    <string name="security_check_certificate_key">security_check_certificate</string>
+    <bool name="security_check_certificate_default">true</bool>
+
+    <string name="security_otr_mode_key">security_otr_mode</string>
+    <string name="security_otr_mode_disabled_value">disabled</string>
+    <string name="security_otr_mode_manual_value">manual</string>
+    <string name="security_otr_mode_auto_value">auto</string>
+    <string name="security_otr_mode_required_value">required</string>
+    <string-array name="security_otr_mode_entries">
+        <item>@string/disabled</item>
+        <item>@string/manual</item>
+        <item>@string/auto</item>
+        <item>@string/required</item>
+    </string-array>
+    <string-array name="security_otr_mode_entryvalues">
+        <item>@string/security_otr_mode_disabled_value</item>
+        <item>@string/security_otr_mode_manual_value</item>
+        <item>@string/security_otr_mode_auto_value</item>
+        <item>@string/security_otr_mode_required_value</item>
+    </string-array>
+    <string name="security_otr_mode_default">@string/security_otr_mode_manual_value</string>
+
+    <string name="security_otr_history_key">security_otr_history</string>
+    <bool name="security_otr_history_default">true</bool>
+
+<!-- preference_phrase -->
+    <string name="phrase_text_key">phrase_text</string>
+    <string name="phrase_user_key">phrase_user</string>
+    <string name="phrase_group_key">phrase_group</string>
+    <string name="phrase_regexp_key">phrase_regexp</string>
+    <string name="phrase_sound_key">phrase_sound</string>
+
+<!-- preference_chat -->
+    <string name="chat_notification_settings_key">chat_notification_settings_key</string>
+
+    <string name="chat_save_history_key">chat_save_history</string>
+    <string name="chat_events_sound_key">chat_events_sound</string>
+    <string name="chat_events_show_text_key">chat_events_show_message_text</string>
+
+    <string-array name="chat_events_show_text_entries">
+        <item>@string/chat_events_show_text_global</item>
+        <item>@string/chat_events_show_text_always</item>
+        <item>@string/chat_events_show_text_never</item>
+    </string-array>
+    <string-array name="chat_events_show_text_entry_values">
+        <item>@string/chat_events_show_text_global_value</item>
+        <item>@string/chat_events_show_text_always_value</item>
+        <item>@string/chat_events_show_text_never_value</item>
+    </string-array>
+
+    <string name="chat_events_show_text_global_value">default</string>
+    <string name="chat_events_show_text_always_value">always</string>
+    <string name="chat_events_show_text_never_value">never</string>
+
+    <string name="chat_events_show_text_default">@string/chat_events_show_text_global_value</string>
+
+    <string name="chat_events_vibro_key">chat_events_vibro</string>
+    <string name="chat_events_visible_chat_key">chat_events_visible_chat</string>
+
+    <string name="chat_events_suppress_100_key">chat_events_suppress_100</string>
+    <bool name="chat_events_suppress_100_default">false</bool>
+
+<!-- preference_xabber -->
+
+    <!-- common values -->
+    <bool name="landscape">false</bool>
+    <string name="status_mode_key">status_mode</string>
+    <string name="status_text_key">status_text</string>
+    <string name="boot_count_key">boot_count</string>
+    <string name="start_at_boot_suggested_key">start_at_boot_suggested</string>
+    <string name="contact_integration_suggested_key">contact_integration_suggested</string>
+    <string name="translation_suggested_key">translation_suggested</string>
+    <string name="dark_theme_suggested_key">dark_theme_suggested</string>
+    <string name="battery_optimization_disable_suggested_key">battery_optimization_disable_suggested</string>
+    <string name="contact_viewer_mime_type">vnd.android.cursor.item/vnd.com.xabber.view</string>
+    <string name="chat_showcase_suggested_key">chat_showcase_suggested_key</string>
+    <string name="contact_showcase_suggested_key">contact_showcase_suggested_key</string>
+</resources>

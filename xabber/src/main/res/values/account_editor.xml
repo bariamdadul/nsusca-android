@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_compression">Use compression</string>
+    <string name="account_host">Host</string>
+    <string name="account_password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="account_port">Port</string>
+    <string name="account_priority">Priority</string>
+    <string name="account_resource">Resource</string>
+    <string name="account_server_name">Server</string>
+    <string name="account_xmpp_register_warning">You must&#160;<a href="http://www.google.com/#q=register an XMPP account">register an XMPP account</a> before adding it to Xabber!</string>
+    <string name="account_user_name">Username</string>
+    <string name="EMPTY_SERVER_NAME">Server name is not specified</string>
+    <string name="EMPTY_USER_NAME">Username is not specified</string>
+    <string name="CONFIRM_PASSWORD">Passwords do not match</string>
+    <string name="ACCOUNT_EXIST">This account already exist</string>
+    <string name="account_compression_summary">Check to enable data compression</string>
+    <string name="account_custom">Custom host</string>
+    <string name="account_custom_summary">Use custom host settings instead of SRV record</string>
+    <string name="account_invalid_port">Port must be a number (default: 5222)</string>
+    <string name="account_invalid_port_range">Port must be between 1 and 65535 (default: 5222)</string>
+    <string name="account_invalid_priority">Priority value must be a number between -128 and 127 (default: 0)</string>
+    <string name="account_proxy_host">Proxy host</string>
+    <string name="account_proxy_invalid_port_range">Proxy port must be between 1 and 65535 (default: 8080)</string>
+    <string name="account_proxy_invalid_port">Proxy port must be a number (default: 8080)</string>
+    <string name="account_proxy_password">Proxy password</string>
+    <string name="account_proxy_port">Proxy port</string>
+    <string name="account_proxy_type">Proxy type</string>
+    <string name="account_proxy_type_none">Disabled</string>
+    <string name="account_proxy_user">Proxy user</string>
+    <string name="account_sasl">Use SASL Authentication (recommended)</string>
+    <string name="account_sasl_summary">Disable for very old server</string>
+    <string name="account_store_password">Store password</string>
+    <string name="account_store_password_summary">Disable this option to request password each time you go online</string>
+    <string name="account_password_disabled">Disabled because you use X-Token</string>
+    <string name="account_tls_enable">Enable TLS</string>
+    <string name="account_tls_enable_summary">Use TLS encryption when possible to connect to server</string>
+    <string name="account_tls_legacy">Legacy SSL</string>
+    <string name="account_tls_legacy_summary">Use legacy SSL encryption when connect to server</string>
+    <string name="account_tls_mode">TLS/SSL usage</string>
+    <string name="account_tls_require">Require TLS</string>
+    <string name="account_tls_require_summary">Require TLS encryption when connect to server</string>
+    <string name="account_enable_tls">Require TLS cryptographic protocol</string>
+    <string name="account_use_tor">Use TOR anonymity network (requires Orbot proxy)</string>
+    <string name="INCORRECT_USER_NAME">Incorrect user name</string>
+    <string name="orbot_required_message">In order to process using TOR you must have Orbot installed and activated to proxy traffic through it. Would you like to install it from Google Play?</string>
+    <string name="orbot_required_title">Install Orbot?</string>
+    <string name="install_orbot">Install Orbot</string>
+    <string name="ACCOUNT_REGISTER_FAILED">Failed to register account on the server.</string>
+    <string name="SERVER_INFO_ERROR">Could not get server info.</string>
+
+    <string name="account_color">Account color</string>
+    <string name="account_color_name_green">Green</string>
+    <string name="account_color_name_orange">Orange</string>
+    <string name="account_color_name_red">Red</string>
+    <string name="account_color_name_blue">Blue</string>
+    <string name="account_color_name_indigo">Indigo</string>
+    <string name="account_color_name_teal">Teal</string>
+    <string name="account_color_name_blue_grey">Blue-grey</string>
+    <string name="account_color_name_cyan">Cyan</string>
+    <string name="account_color_name_deep_purple">Deep-purple</string>
+    <string name="account_color_name_lime">Lime</string>
+    <string name="account_color_name_pink">Pink</string>
+    <string name="account_color_name_purple">Purple</string>
+    <string name="account_color_name_light_blue">Light-blue</string>
+    <string name="account_color_name_light_green">Light-green</string>
+    <string name="account_color_name_amber">Amber</string>
+    <string name="account_color_name_deep_orange">Deep-orange</string>
+    <string name="account_color_name_brown">Brown</string>
+
+    <string name="account_connection_settings">Connection settings</string>
+    <string name="account_active_sessions">Active sessions</string>
+    <string name="account_current_session">Current session</string>
+    <string name="account_terminate_all_sessions">Terminate all others sessions</string>
+    <string name="account_active_sessions_summary">Manage your sessions with X-Token</string>
+    <string name="account_active_sessions_disabled">Server not support X-Token</string>
+    <string name="account_active_sessions_error">Failed to get a list of active sessions</string>
+
+    <string name="blocked_contacts">Blocked contacts</string>
+    <string name="blocked_contacts_unknown">Could not determine support for blocking contacts.</string>
+    <string name="blocked_contacts_not_supported">Blocking is not supported by server.</string>
+    <string name="blocked_contacts_empty">No blocked contacts.</string>
+
+    <plurals name="blocked_contacts_number">
+        <item quantity="one">%d contact blocked</item>
+        <item quantity="other">%d contacts blocked</item>
+    </plurals>
+
+    <string name="account_chat_history">Chat history</string>
+    <string name="account_history_options_summary">Storage options for chat messages</string>
+
+    <string name="account_chat_history_unknown">Support for chat history server store is not determined yet</string>
+    <string name="account_chat_history_not_supported">The server does not support storing chat history.</string>
+
+    <string name="account_mam_default_behavior_title">Message Archive Management</string>
+    <string name="account_mam_default_behavior_always">Store all messages on server</string>
+    <string name="account_mam_default_behavior_roster">Store roster contacts messages on server</string>
+    <string name="account_mam_default_behavior_never">Do not store any messages on server</string>
+
+    <string name="account_mam_sync_title">Load message history</string>
+    <string name="account_mam_sync_all">Load history for all contacts</string>
+    <string name="account_mam_sync_current">Load history for opened chat only</string>
+    <string name="account_mam_sync_none">Do not load history for anybody</string>
+
+    <string name="account_clear_history_on_exit_title">Clear history on exit</string>
+    <string name="account_clear_history_on_exit_summary">Delete all chat messages from device before exiting NSCA.</string>
+
+    <string name="account_bookmarks">Bookmarks</string>
+    <string name="account_bookmarks_summary">List of bookmarks for this account</string>
+
+    <string name="account_sync">Synchronization</string>
+    <string name="account_sync_summary">Synchronization with NSCA Account</string>
+
+    <string name="account_push">Push notifications</string>
+    <string name="account_push_enable">Enable push notifications</string>
+
+    <string name="bookmark_not_supported">Server does not support bookmarks</string>
+
+    <string name="terminate_all_sessions_title">Are you sure you want to terminate all other sessions?</string>
+    <string name="terminate_session_title">Terminate this session?</string>
+    <string name="button_terminate">Terminate</string>
+</resources>

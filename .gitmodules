@@ -1,0 +1,3 @@
+[submodule "xabber/MemorizingTrustManager"]
+	path = xabber/MemorizingTrustManager
+	url = https://github.com/redsolution/MemorizingTrustManager.git

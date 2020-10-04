@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/category_appearance">
+
+    <ListPreference
+        android:defaultValue="@string/chats_font_size_default"
+        android:entries="@array/chats_font_size_entries"
+        android:entryValues="@array/chats_font_size_entryvalues"
+        android:key="@string/chats_font_size_key"
+        android:title="@string/chats_font_size"
+        android:summary="%s"
+        />
+    <CheckBoxPreference
+        android:defaultValue="@bool/chats_show_avatars_default"
+        android:key="@string/chats_show_avatars_key"
+        android:title="@string/chats_show_avatars"
+        />
+    <CheckBoxPreference
+        android:defaultValue="@bool/chats_show_avatars_muc_default"
+        android:key="@string/chats_show_avatars_muc_key"
+        android:title="@string/chats_show_avatars_muc"
+        />
+    <ListPreference
+        android:defaultValue="@string/chats_show_status_change_default"
+        android:entries="@array/chats_show_status_change_entries"
+        android:entryValues="@array/chats_show_status_change_entryvalues"
+        android:key="@string/chats_show_status_change_key"
+        android:summary="%s"
+        android:title="@string/chats_show_status_change"
+        />
+    <CheckBoxPreference
+        android:defaultValue="@bool/chats_show_background_default"
+        android:key="@string/chats_show_background_key"
+        android:title="@string/chats_show_background"
+        />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_behavior">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/chats_send_by_enter_default"
+        android:key="@string/chats_send_by_enter_key"
+        android:title="@string/chats_send_by_enter"
+        />
+
+    <ListPreference
+        android:defaultValue="@string/chats_hide_keyboard_default"
+        android:entries="@array/chats_hide_keyboard_entries"
+        android:entryValues="@array/chats_hide_keyboard_entryvalues"
+        android:key="@string/chats_hide_keyboard_key"
+        android:title="@string/chats_hide_keyboard"
+        android:summary="%s"
+        />
+
+    </PreferenceCategory>
+</PreferenceScreen>

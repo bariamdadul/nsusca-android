@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/category_message_notifications">
+
+        <CheckBoxPreference
+            android:title="@string/events_on_chat_title"
+            android:key="@string/events_on_chat_key"
+            android:defaultValue="@bool/events_on_chat_default"
+            android:summary="@string/events_on_chat_summary"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/events_show_text"
+            android:summary="@string/events_show_text_summary"
+            android:key="@string/events_show_text_key"
+            android:defaultValue="@bool/events_show_text_default"
+            android:dependency="@string/events_on_chat_key"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/events_lightning"
+            android:summary="@string/events_lightning_summary"
+            android:key="@string/events_lightning_key"
+            android:defaultValue="@bool/events_lightning_default"
+            android:dependency="@string/events_on_chat_key"
+            />
+
+        <ListPreference
+            android:defaultValue="@string/events_vibro_bydefault"
+            android:entries="@array/events_vibro_entries"
+            android:entryValues="@array/events_vibro_entryvalues"
+            android:key="@string/events_vibro_chat_key"
+            android:title="@string/events_vibro"
+            android:summary="%s"
+            android:dependency="@string/events_on_chat_key"
+            />
+
+        <RingtonePreference
+            android:title="@string/events_sound"
+            android:summary="@string/events_sound_summary"
+            android:key="@string/events_sound_key"
+            android:defaultValue="@string/events_sound_default"
+            android:ringtoneType="notification"
+            android:showSilent="true"
+            android:showDefault="true"
+            android:dependency="@string/events_on_chat_key"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_group_notifications">
+
+        <CheckBoxPreference
+            android:title="@string/events_on_muc_title"
+            android:key="@string/events_on_muc_key"
+            android:defaultValue="@bool/events_on_muc_default"
+            android:summary="@string/events_on_muc_summary"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/events_show_text_muc"
+            android:summary="@string/events_show_text_muc_summary"
+            android:key="@string/events_show_text_muc_key"
+            android:defaultValue="@bool/events_show_text_default"
+            android:dependency="@string/events_on_muc_key"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/events_lightning_muc"
+            android:summary="@string/events_lightning_muc_summary"
+            android:key="@string/events_lightning_muc_key"
+            android:defaultValue="@bool/events_lightning_default"
+            android:dependency="@string/events_on_muc_key"
+            />
+
+        <ListPreference
+            android:defaultValue="@string/events_vibro_bydefault"
+            android:entries="@array/events_vibro_entries"
+            android:entryValues="@array/events_vibro_entryvalues"
+            android:key="@string/events_vibro_muc_key"
+            android:title="@string/events_vibro"
+            android:summary="%s"
+            android:dependency="@string/events_on_muc_key"
+            />
+
+        <RingtonePreference
+            android:title="@string/events_sound"
+            android:summary="@string/events_sound_summary"
+            android:key="@string/events_sound_muc_key"
+            android:defaultValue="@string/events_sound_default"
+            android:ringtoneType="notification"
+            android:showSilent="true"
+            android:showDefault="true"
+            android:dependency="@string/events_on_muc_key"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/call_attention">
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/chats_attention_default"
+            android:key="@string/chats_attention_key"
+            android:title="@string/chats_attention"
+            android:summary="@string/chats_attention_summary"
+            />
+        <RingtonePreference
+            android:defaultValue="@string/chats_attention_sound_default"
+            android:dependency="@string/chats_attention_key"
+            android:key="@string/chats_attention_sound_key"
+            android:ringtoneType="ringtone"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/chats_attention_sound"
+            android:summary="@string/chats_attention_sound_summary"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_key_phrase">
+
+        <Preference
+            android:title="@string/events_phrases"
+            android:summary="@string/events_phrases_summary"
+            android:key="@string/events_phrases">
+            <intent
+                android:targetPackage="@string/application_package"
+                android:targetClass="com.xabber.android.ui.preferences.PhraseList"/>
+        </Preference>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_other">
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/events_in_chat_sounds_default"
+            android:key="@string/events_in_chat_sounds_key"
+            android:title="@string/events_in_chat_sounds_title"
+            android:summary="@string/events_in_chat_sounds_summary"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_reset">
+
+        <Preference
+            android:key="@string/events_reset_key"
+            android:title="@string/events_reset_title"
+            android:summary="@string/events_reset_summary"/>
+
+        <Preference
+            android:key="@string/events_remove_all_custom_key"
+            android:title="@string/events_remove_all_custom_title"
+            android:summary="@string/events_remove_all_custom_summary"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_delete_confirm">Do you really want to delete account %s?\n(it won\'t be deleted from server, just from NSCA)</string>
+    <string name="account_add">Add account</string>
+    <string name="account_register">Register new account</string>
+    <string name="account_delete">Delete account</string>
+    <string name="account_editor">Account settings</string>
+    <string name="account_state_registration">Registering</string>
+    <string name="account_state_authentication">Authorizing</string>
+    <string name="account_state_connected">Online</string>
+    <string name="account_state_connecting">Connecting</string>
+    <string name="account_state_disconnecting">Disconnecting</string>
+    <string name="account_state_offline">Offline</string>
+    <string name="account_state_waiting">Waiting to reconnect</string>
+
+    <string name="account_push_state_disabled">Push-notifications disabled</string>
+    <string name="account_push_state_not_support">Push-notifications not supported</string>
+    <string name="account_push_state_enabled">Push-notifications enabled</string>
+</resources>

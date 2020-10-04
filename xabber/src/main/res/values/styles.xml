@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+
+    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#000</item>
+    </style>
+
+    <style name="ChatHeader" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatHeader.Delay">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ChatText.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatText.Normal">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ChatText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ChatText.XLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ChatInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatInfo.Warning">
+        <item name="android:textColor">#D00000</item>
+    </style>
+
+    <style name="OccupantList" parent="@android:style/TextAppearance" />
+    <style name="OccupantList.Moderator">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="OccupantList.Participant">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="OccupantList.Visitor">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="RedCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/red_700</item>
+    </style>
+
+    <style name="BlueCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/account_register_blue</item>
+        <item name="colorControlNormal">@color/grey_700</item>
+    </style>
+
+    <style name="WhiteSwitchStyle">
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="RedSwitchStyle">
+        <item name="colorControlActivated">@color/red_700</item>
+    </style>
+
+    <style name="RedButton" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/red_700</item>
+    </style>
+
+    <style name="BlueButton" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/account_register_blue</item>
+    </style>
+
+    <style name="WhiteButton" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="CoralButton" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/patreon_coral</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/red_700</item>
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="colorControlActivated">@color/red_700</item>
+        <item name="colorControlHighlight">@color/red_700</item>
+    </style>
+
+</resources>

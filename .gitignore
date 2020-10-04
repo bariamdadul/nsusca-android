@@ -1,0 +1,13 @@
+local.properties
+*.iml
+.idea
+build
+.gradle
+*.apk
+app/manifest-merger-release-report.txt
+*~*
+/ajcore*
+*fabric.properties
+*google-services.json
+*social_keys.xml
+fingerprints

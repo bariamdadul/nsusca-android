@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    android:elevation="24dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_messages_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_message_incoming"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:clipToPadding="false"
+        android:layout_above="@+id/secondBottomPanel"
+        android:layout_below="@+id/toolbar_default"
+        />
+
+    <TextView
+        android:id="@+id/tvTopDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:textStyle="bold"
+        android:text="21 January"
+        android:textColor="@color/white"
+        android:background="?attr/transparent_rounded_background"
+        android:visibility="visible"
+        />
+
+    <ViewStub
+        android:id="@+id/stubNotify"
+        android:inflatedId="@+id/notifyLayout"
+        android:layout="@layout/layout_chat_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/secondBottomPanel"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_above="@id/secondBottomPanel"
+        android:background="@drawable/bottom_view_shadow"/>
+
+    <FrameLayout
+        android:id="@+id/secondBottomPanel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomPanel"
+        />
+
+    <RelativeLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/view_chat_input" />
+
+        <include layout="@layout/view_chat_interaction"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnScrollDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/secondBottomPanel"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:visibility="gone"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="?attr/chat_input_background"
+            android:src="@drawable/ic_arrow_down"
+            android:tint="?attr/chat_input_button_color"
+            app:borderWidth="0dp"
+            />
+
+        <TextView
+            android:id="@+id/tvNewReceivedCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="1dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/rounded_background_green"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:elevation="6dp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/stubJoin"
+        android:inflatedId="@+id/joinLayout"
+        android:layout="@layout/layout_chat_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_previous_history_progress_bar"
+        android:layout_below="@+id/toolbar_default"
+        android:indeterminate="true"
+        android:elevation="8dp"
+        android:layout_marginTop="-8dp"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/chat_last_history_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/secondBottomPanel"
+        android:indeterminate="true"
+        android:layout_marginBottom="-8dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/placeholder"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
